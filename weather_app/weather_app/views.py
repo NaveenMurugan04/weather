@@ -9,9 +9,7 @@ import requests
 def home(request):
   
   template = loader.get_template('home.html')
-  weathers_list = fetch_weathers_list().json()
-  
-  print(weathers_list)
+ 
   
 
   
